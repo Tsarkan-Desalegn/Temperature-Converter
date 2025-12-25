@@ -1,0 +1,44 @@
+.first{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 100;
+    background-color: aqua;
+    text-shadow: 12px,10px,12px, 10px black;
+    border-radius: 100px;
+    height: 450px;
+   
+}
+#textBox{
+    display:flex;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 12px;
+    margin:10px;
+    font-size: large;
+    font-weight: 1000;
+}
+#toFahrenheit{
+    margin:20px;
+
+}
+#toCelsius{
+    margin:20px;
+}
+#great{
+  background-color: rgb(185, 255, 127);
+  border-radius: 10px;
+  padding: 15px;
+  text-align:center;
+  font-weight: 1000;
+    font-size: large;
+}
+#result{
+    font-size: large;
+    font-weight: 1000;
+}
+.one{
+    font-weight: 1000;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
