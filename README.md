@@ -11,5 +11,6 @@ It first connects to the HTML elements using document.getElementById, then defin
 
  If the “Celsius ➡️ Fahrenheit” option is chosen, the input value is converted using the formula F=C\times \frac{9}{5}+32, and the result is displayed with the degree symbol and “F.” If the “Fahrenheit ➡️ Celsius” option is chosen, the formula C=(F-32)\times \frac{5}{9} is applied, and the result is shown with “°C.” If neither option is selected, the program displays a message prompting the user to choose one.
  
+  
   This combination of HTML for structure, CSS for design, and JavaScript for functionality makes the converter interactive and easy to use.
 
