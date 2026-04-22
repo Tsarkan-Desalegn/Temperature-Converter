@@ -49,3 +49,20 @@ Temperature-Converter/
 │── style.css    # Styling rules
 │── script.js    # Conversion logic
 
+
+---
+
+## 🚀 Usage
+1. Clone or download the repository.  
+2. Open `index.html` in your browser.  
+3. Enter a temperature, select conversion type, and click **Convert**.  
+
+---
+
+## 🎯 Example
+- Input: `0` with **Celsius ➡️ Fahrenheit** selected  
+- Output: `32 °F`  
+
+---
+
+✅ This combination of **HTML for structure**, **CSS for design**, and **JavaScript for functionality** makes the converter interactive, intuitive, and easy to use.
