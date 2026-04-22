@@ -1,16 +1,51 @@
-# Temperature-Converter
-Temperature converter 
+# 🌡️ Temperature Converter
 
-This project is a simple temperature converter built with HTML, CSS, and JavaScript. 
+A simple, interactive **Temperature Converter** built with **HTML, CSS, and JavaScript**.
 
-The HTML file creates a form where the user can type a number into a textbox, select one of two radio buttons to choose the conversion direction, and then click a submit button to run the calculation. 
+---
 
-The CSS file styles the form by centering it on the page, adding background color, rounded borders, and bold readable text for labels and results. The JavaScript file contains the logic for the conversion. 
+## 📖 Overview
+This project allows users to:
+- Enter a numeric temperature value
+- Choose a conversion direction (**Celsius ➡️ Fahrenheit** or **Fahrenheit ➡️ Celsius**)
+- Click a button to instantly see the converted result
 
-It first connects to the HTML elements using document.getElementById, then defines a convert() function. Inside this function, the code checks which radio button is selected using the .checked property.
+---
 
- If the “Celsius ➡️ Fahrenheit” option is chosen, the input value is converted using the formula F=C\times \frac{9}{5}+32, and the result is displayed with the degree symbol and “F.” If the “Fahrenheit ➡️ Celsius” option is chosen, the formula C=(F-32)\times \frac{5}{9} is applied, and the result is shown with “°C.” If neither option is selected, the program displays a message prompting the user to choose one.
- 
+## ✨ Features
+- **User-friendly form** with textbox and radio buttons  
+- **Conversion logic** implemented in JavaScript  
+- **Responsive design** styled with CSS (centered form, background color, rounded borders, bold labels)  
+- **Error handling**: prompts user if no conversion option is selected  
+
+---
+
+## 🔢 Conversion Formulas
+- **Celsius ➡️ Fahrenheit**  
+  \[F = C \times \frac{9}{5} + 32\]
+
+- **Fahrenheit ➡️ Celsius**  
   
-  This combination of HTML for structure, CSS for design, and JavaScript for functionality makes the converter interactive and easy to use.
+\[ C = (F - 32) \times \frac{5}{9}\]
+
+
+
+---
+
+## ⚙️ How It Works
+1. The **HTML file** defines the form structure.  
+2. The **CSS file** styles the form for readability and visual appeal.  
+3. The **JavaScript file**:
+   - Connects to HTML elements using `document.getElementById`
+   - Defines a `convert()` function
+   - Uses `.checked` to determine which radio button is selected
+   - Applies the correct formula and updates the result display
+
+---
+
+## 📂 Project Structure
+Temperature-Converter/
+│── index.html   # Form structure
+│── style.css    # Styling rules
+│── script.js    # Conversion logic
 
